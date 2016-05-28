@@ -11,6 +11,10 @@ import javafx.stage.Stage;
 public class HelloFXApp extends Application {
     @Override
     public void start(Stage stage){
-        //the logic for starting the application goes here
+        //set a title for the stage
+        stage.setTitle("Hola Aplicación JavaFX");
+        
+        //show the stage
+        stage.show();
     }
 }
