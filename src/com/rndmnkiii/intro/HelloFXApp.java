@@ -19,7 +19,7 @@ public class HelloFXApp extends Application {
     }
     @Override
     public void start(Stage stage){
-        //create a text messabe
+        //create a text message
         Text msg = new Text("Hola JavaFX");
         
         //toplevel node
